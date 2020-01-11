@@ -2,9 +2,33 @@
 <html xmlns:th="http://www.thymeleaf.org">
 <head>
     <meta charset="UTF-8">
+    <link rel="stylesheet" type="text/css" th:href="@{/css/bootstrap.min.css}" />
+    <link rel="stylesheet" type="text/css" th:href="@{/css/index.css}" />
+    <script type="text/javascript" th:src="@{/js/bootstrap.min.js}"></script>
     <title>Board Example</title>
 </head>
 <body>
     <h1>Board Example</h1>
+    <table class="table table-striped">
+        <thead>
+        <tr>
+            <th scope="col" width="10%">NO</th>
+            <th scope="col" width="30%">TITLE</th>
+            <th scope="col" width="20%">TIME</th>
+            <th scope="col" width="10%">READCOUNT</th>
+            <th scope="col" width="30%">WRITER</th>
+        </tr>
+        </thead>
+        <tbody>
+        <tr>
+            <th scope="row">1</th>
+            <td>Mark</td>
+            <td>Otto</td>
+            <td>@mdo</td>
+            <td></td>
+            <td></td>
+        </tr>
+        </tbody>
+    </table>
 </body>
 </html>

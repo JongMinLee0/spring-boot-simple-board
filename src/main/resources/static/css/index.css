@@ -1,0 +1,12 @@
+.table{
+    width:50%;
+    height:50%;
+}
+
+.table th{
+    text-align: center;
+}
+
+.table td{
+    text-align: center;
+}
